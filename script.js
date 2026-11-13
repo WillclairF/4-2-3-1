@@ -326,3 +326,105 @@
 // git remote add origin https://github.com/JOUW-GEBRUIKERSNAAM/JOUW-REPOSITORY.git
 // git push -u origin main
 // Vervang de repository-URL. Controleer vóór git add . dat .env.local, wachtwoorden en andere geheime bestande
+
+
+// ls Toont bestanden en mappen in de huidige map.
+// ls /etc/ppp Toont de inhoud van de opgegeven map
+// /etc/ppp.
+// ls /etc/ppp /etc/ssh Toont de inhoud van twee opgegeven mappen.
+// ls -l Lange lijst: o.a. rechten, grootte en datum.
+// ls -r Toont resultaten in omgekeerde alfabetische
+// volgorde.
+// ls -l -r / ls -rl / ls -lr Drie schrijfwijzen met hetzelfde effect: lange
+// lijst in omgekeerde volgorde.
+// ls -l /usr/bin/perl Toont o.a. de bestandsgrootte in bytes.
+// ls -lh /usr/bin/perl Toont de grootte leesbaar in K, M of G.
+// ls -l --human-readable /usr/bin/perl Lange schrijfwijze van -h; hetzelfde effect.
+// 3.3.3 History (eerder getypte commando’s) (p. 6-8)
+
+// history Laat eerder gebruikte commando’s zien.
+// history 5 Toont de laatste vijf commando’s (het getal
+// mag anders zijn).
+// !2 Voert het commando met geschiedenisnummer
+// 2 opnieuw uit.
+// !-3 Herhaalt het commando van drie opdrachten
+// terug.
+// !! Herhaalt precies het laatst uitgevoerde
+// commando.
+// !ls Herhaalt het meest recente commando dat met
+// ls begint.
+
+// echo $HISTSIZE Laat zien hoeveel commando’s Bash in de
+// history bijhoudt.
+// HISTSIZE=500 Stelt de historylimiet van de huidige shell in op
+// 500; controleer met echo $HISTSIZE.
+
+// type cd Controleert het type van cd; dit is een
+// ingebouwd shellcommando.
+// which ls Zoekt het uitvoerbare bestand van ls via PATH.
+// which cal Zoekt de locatie van het kalenderprogramma
+// cal.
+// /bin/ls Voert ls uit via het volledige pad.
+// type cal Geeft aan welk type commando cal is.
+// type echo Laat zien dat echo een shell builtin kan zijn.
+// which echo Zoekt de externe uitvoerbare versie van echo.
+// type -a echo Toont alle gevonden definities van echo.
+
+// alias mycal="cal 2019" Maakt mycal als korte naam voor cal 2019.
+
+// mycal Voert de alias uit: toont de kalender van 2019
+
+// my_report () {
+// ls Documents
+// date
+// echo "Document directory report"
+// }
+
+// my_report Voert achter elkaar ls Documents, date en echo
+
+
+
+// echo The car costs $100 Bash probeert $1 te vervangen; meestal krijg je
+// “The car costs 00”.
+// echo 'The car costs $100' Het dollarteken blijft gewone tekst: “The car
+// costs $100”.
+
+// echo "The service costs $1 and the path is $PATH" In dubbele quotes worden $1 en $PATH
+// geïnterpreteerd.
+// echo 'The service costs $1 and the path is $PATH' In enkele quotes blijven beide
+// dollar-uitdrukkingen letterlijk.
+// echo The service costs \$1 and the path is $PATH De \ beschermt alleen het dollarteken van
+// $1; $PATH wordt wel ingevuld.
+
+// date Toont de huidige systeemdatum en -tijd.
+// echo Today is date Drukt het woord “date” letterlijk af.
+// echo Today is `date` Voert date binnen echo uit; de datum wordt
+// ingevuld
+
+
+// cal 1 2030; cal 2 2030; cal 3 2030 Voert alle drie de kalendercommando’s na
+// elkaar uit, ook als een eerder commando faalt.
+
+// ls /etc/ppp Voorbeeld van een commando dat lukt als de
+// map bestaat en bereikbaar is.
+// ls /etc/junk Voorbeeld van een commando dat mislukt als
+// deze map niet bestaat.
+// ls /etc/ppp && echo success Bij succes van ls verschijnt “success”.
+// ls /etc/junk && echo success Bij mislukking wordt echo success
+// overgeslagen.
+
+
+// ls /etc/ppp || echo failed Bij succes van ls wordt echo failed
+// overgeslagen.
+// ls /etc/junk || echo failed Bij mislukking wordt “failed” afgedrukt.
+// Mini-overzicht: symbolen en opties
+// -l uitgebreide lijst !! laatste commando opnieuw
+// -r omgekeerde volgorde 'tekst' speciale tekens blijven letterlijk
+// -h / --human-
+// readable
+// leesbare bestandsgrootte \ beschermt het volgende speciale teken
+// $NAAM gebruik de waarde van een variabele `date` voert het binnenste commando uit
+// ~ home-directory ; voer opdrachten allemaal na elkaar uit
+// PATH locaties waar de shell commando’s
+// zoekt
+// && tweede opdracht alleen bij succes
