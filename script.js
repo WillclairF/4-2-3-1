@@ -428,3 +428,67 @@
 // PATH locaties waar de shell commando’s
 // zoekt
 // && tweede opdracht alleen bij succes
+
+// Main function of an OS?	To manage hardware and software resources.
+// 2. What else does a modern OS do?	It provides a user interface, security, and networking.
+// 3. Example of a single-purpose OS?	An operating system in a router.
+// 4. What do all devices with an OS have in common?	They use an OS to manage hardware and run software.
+
+// Section 2.1.1
+// Vraag	Antwoord
+// 1. Which OS is not based on UNIX or Linux?	Microsoft Windows.
+// 2. What is macOS based on?	UNIX.
+// 3. What is true about Linux?	Linux is open-source and can be freely modified and distributed under its license.
+// 4. How do Linux administrators perform tasks?	Usually through the command-line interface (CLI).
+
+// Pagina 2 – Software & Distributions
+// Section 2.2.1
+// Vraag	Antwoord
+// 1. Desktop vs. server?	A desktop is for personal tasks; a server provides services to other computers.
+// 2. What determines a computer's function?	Its intended purpose and the software it runs.
+// 3. What is a maintenance cycle?	The period in which software receives updates, fixes, and support.
+
+// Beta & Stable Software
+// Vraag	Antwoord
+// 1. When is software beta?	When it is still being tested before its stable release.
+// 2. Why use beta software?	To try new features early.
+// 3. Why do production servers use stable versions?	Because they are more reliable and thoroughly tested.
+// 4. Open-source vs. proprietary?	Open-source code is available to inspect and modify; proprietary source code is generally restricted.
+// 5. What is backward compatibility?	New software can still work with older systems, files, or applications.
+
+// Section 2.4 – Linux Distributions
+// Vraag	Antwoord
+// 1. What is a Linux distribution?	An operating system built using the Linux kernel and additional software.
+// 2. What happens during installation?	The installer sets up the operating system and necessary software.
+// 3. Purpose of a package manager?	To install, update, and remove software.
+// 4. Why is choosing a distribution difficult?	Because many distributions exist for different needs.
+
+// Pagina 3 – Linux in Practice
+// Section 2.4 (continued)
+// Vraag	Antwoord
+// 5. What makes Linux special?	It is open-source, flexible, and highly customizable.
+
+// Section 2.3
+// Vraag	Antwoord
+// 1. Why choose commercial Linux distributions?	For professional support, security updates, and reliability.
+// 2. What helps ensure open-source security?	Community code reviews, security fixes, and regular updates.
+// 3. Why do vendors support limited distributions?	To reduce testing and support costs.
+// 4. Enthusiast vs. enterprise distribution?	Enthusiast distributions focus on new features; enterprise distributions prioritize stability and support.
+
+// Section 2.4 – Linux Applications
+// Vraag	Antwoord
+// 1. Linux on desktops and laptops	The PDF only gives this heading; the actual question is missing.
+// 2. What is Chrome OS based on?	Linux.
+// 3. Why do developers prefer Linux?	Because it offers flexibility, powerful tools, and control.
+// 4. Advantage in embedded systems?	Linux can run efficiently on different hardware.
+// 5. Which mobile OS is Linux-based?	Android.
+// 6. Other Linux-based mobile OS?	Tizen, Sailfish OS, and Ubuntu Touch.
+// 7. Percentage of top 500 supercomputers using Linux?	100%.
+// 8. Which cloud companies use Linux?	Amazon AWS, Google Cloud, and Microsoft Azure.
+
+// Pagina 4 – Embedded Systems
+// Section 2.4.2
+// Vraag	Antwoord
+// 1. Why could Linux support more hardware?	Its open-source code allowed developers to adapt it to different hardware architectures.
+// 2. What is an embedded system?	A computer designed to perform a specific function inside another device.
+// 3. How does embedded Linux affect IoT?	It enables many low-cost devices to connect to networks and exchange data.
